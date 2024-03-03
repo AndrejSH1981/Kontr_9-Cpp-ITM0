@@ -199,11 +199,11 @@ public:
             cout << "\ninvalid_argument - Hours value must be from 0 to 24" << endl;
             throw invalid_argument{ "0" };
         }
-        if ((minutes1 >= 60 || hours1 < 0)) {
+        if ((minutes1 >= 60 || minutes1 < 0)) {
             cout << "\ninvalid_argument - minutes value must be from 0 to 60" << endl;
             throw invalid_argument{ "0" };
         }
-        if ((seconds1 >= 60 || hours1 < 0)) {
+        if ((seconds1 >= 60 || seconds1 < 0)) {
             cout << "\ninvalid_argument - seconds value must be from 0 to 60" << endl;
             throw invalid_argument{ "0" };
         }
